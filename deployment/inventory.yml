@@ -1,6 +1,6 @@
 all:
   hosts:
-    <your_server_hostname>:
-      ansible_user: <your_server_username>
-      ed25519_fingerprint: <your_server_ssh_fingerprint>
-      ota_source_repository: <your_repository_url>
+    54.38.188.145:
+      ansible_user: ota
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIAcAoGmP6nGI8Ofl3GsBVlHG6hgn/RudIHYwICNoFb+R
+      ota_source_repository: git@github.com:OpenTermsArchive/dns-declarations.git

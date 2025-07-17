@@ -1,0 +1,24 @@
+{
+  "name": "Doctolib",
+  "terms": {
+    "Terms of Service": {
+      "combine": [
+        {
+          "fetch": "https://doctolib.legal/B2C-CU-Website-FR"
+        },
+        {
+          "fetch": "https://doctolib.legal/CU-B2C-FR"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://doctolib.legal/privacy-policy-B2C-FR"
+    },
+    "Trackers Policy": {
+      "fetch": "https://doctolib.legal/Cookie_Policy_FR_B2C"
+    },
+    "Imprint": {
+      "fetch": "https://doctolib.legal/B2C-legalmentions-FR"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Petit BamBou",
+  "terms": {
+    "Imprint": {
+      "fetch": "https://petitbambou.com/fr/legal-notices",
+      "select": [
+        ".legal-page"
+      ],
+      "executeClientScripts": true
+    },
+    "Terms of Service": {
+      "fetch": "https://petitbambou.com/fr/terms-of-service",
+      "select": [
+        ".cgu-page"
+      ],
+      "executeClientScripts": true
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://petitbambou.com/fr/terms-of-sale",
+      "select": [
+        ".cgv-page"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://petitbambou.com/fr/privacy",
+      "select": [
+        ".privacy-page"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

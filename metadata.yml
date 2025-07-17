@@ -1,21 +1,24 @@
 id: dns
-name: dns
+name: Délégation au numérique en santé
 tagline: ''
 description: ''
 dataset: https://github.com/OpenTermsArchive/dns-versions/releases
 declarations: https://github.com/OpenTermsArchive/dns-declarations
 versions: https://github.com/OpenTermsArchive/dns-versions
 snapshots: https://github.com/OpenTermsArchive/dns-snapshots
-donations: ''
-logo: ''
-languages: []
-jurisdictions: []
+languages:
+  - fr
+jurisdictions:
+  - FR
 trackingPeriods:
-  - startDate: 2025-07-17
-    schedule: "30 */12 * * *"
-    serverLocation: ''
+  - startDate: '2025-07-17'
+    schedule: 30 */12 * * *
+    serverLocation: Strasbourg, FR
 governance:
-  OpenTermsArchive:
-    url: ''
-    logo: ''
-    roles: [administrator, curator, maintainer]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+    roles:
+      - administrator
+      - curator
+      - maintainer

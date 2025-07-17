@@ -1,0 +1,13 @@
+{
+  "name": "Open Terms Archive",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://opentermsarchive.org/xyz/privacy-policy",
+      "select": ".textcontent"
+    },
+    "Imprint": {
+      "fetch": "https://opentermsarchive.org/en/legal-notice",
+      "select": ".123456789"
+    }
+  }
+}

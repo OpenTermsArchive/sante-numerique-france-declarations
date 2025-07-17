@@ -1,0 +1,21 @@
+{
+  "name": "Livi",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://livi.fr/legal/politique-de-confidentialite/",
+      "select": "main"
+    },
+    "Imprint": {
+      "fetch": "https://livi.fr/mentions-legales/",
+      "select": "main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://livi.fr/legal/cookies/",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.livi.fr/eula//",
+      "select": "main"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Heloa",
+  "terms": {
+    "Imprint": {
+      "fetch": "https://heloa.app/fr/mentions-legales",
+      "select": [
+        ".entry-hero",
+        "[role=\"main\"]"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://heloa.app/fr/privacy",
+      "select": [
+        ".entry-hero",
+        "[role=\"main\"]"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://heloa.app/fr/cgu",
+      "select": [
+        ".entry-hero",
+        "[role=\"main\"]"
+      ]
+    }
+  }
+}

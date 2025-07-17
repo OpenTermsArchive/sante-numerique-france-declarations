@@ -1,0 +1,23 @@
+{
+  "name": "Maiia",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://maiia.com/mentions-legales",
+      "select": [
+        ".legal__content"
+      ],
+      "remove": [
+        ".floating-image"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://maiia.com/donnees-personnelles",
+      "select": [
+        ".legal__content"
+      ],
+      "remove": [
+        ".floating-image"
+      ]
+    }
+  }
+}

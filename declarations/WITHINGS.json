@@ -1,0 +1,42 @@
+{
+  "name": "WITHINGS",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://withings.com/fr/fr/legal/sales-conditions",
+      "select": [
+        ".document"
+      ]
+    },
+    "Imprint": {
+      "fetch": "https://withings.com/fr/fr/legal/legal-notice",
+      "select": [
+        ".document"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://withings.com/fr/fr/legal/privacy-policy",
+      "select": [
+        ".document"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://withings.com/fr/fr/legal/cookies",
+      "select": [
+        ".document"
+      ]
+    },
+    "Terms of Service": {
+      "select": [
+        ".document"
+      ],
+      "combine": [
+        {
+          "fetch": "https://withings.com/fr/fr/legal/general-conditions"
+        },
+        {
+          "fetch": "https://www.withings.com/fr/fr/legal/services-terms-and-conditions"
+        }
+      ]
+    }
+  }
+}

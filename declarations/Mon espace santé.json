@@ -1,0 +1,20 @@
+{
+  "name": "Mon espace santé",
+  "terms": {
+    "Terms of Service": {
+      "select": ".main-page-container",
+      "fetch": "https://www.monespacesante.fr/cgu",
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "select": ".main-page-container",
+      "fetch": "https://www.monespacesante.fr/protection-donnees-personnelles",
+      "executeClientScripts": true
+    },
+    "Accessibility Statement": {
+      "select": ".main-page-container",
+      "fetch": "https://www.monespacesante.fr/accessibilite",
+      "executeClientScripts": true
+    }
+  }
+}

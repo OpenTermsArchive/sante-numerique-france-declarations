@@ -1,0 +1,15 @@
+{
+  "name": "Allergy Insider",
+  "terms": {
+    "Trackers Policy": {
+      "fetch": "https://documents.thermofisher.com/TFS-Assets/CORP/Instructions/Thermo%20Fisher%20Scientific%20Cookie%20Notice%20-%20French.pdf"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thermofisher.com/fr/fr/home/global/terms-of-use.html",
+      "select": "[role=\"main\"]"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thermofisher.com/content/dam/LifeTech/Documents/PDFs/privacy-policy/Global-Privacy-Notice-French.pdf"
+    }
+  }
+}

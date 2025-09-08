@@ -1,0 +1,25 @@
+{
+  "name": "LibHéros",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://libheros.fr/a-propos/politique-confidentialite",
+      "select": {
+        "startAfter": ".main-header",
+        "endBefore": ".footer"
+      },
+      "remove": [
+        ".responsive-image"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.libheros.fr/a-propos/cgps",
+      "select": {
+        "startAfter": ".main-header",
+        "endBefore": ".footer"
+      },
+      "remove": [
+        ".responsive-image"
+      ]
+    }
+  }
+}

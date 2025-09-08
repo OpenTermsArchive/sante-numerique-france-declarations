@@ -1,0 +1,29 @@
+{
+  "name": "MON AP-HP",
+  "terms": {
+    "Imprint": {
+      "fetch": "https://mon.aphp.fr/mentions_legales",
+      "select": {
+        "startAfter": "header",
+        "endBefore": ".footer--container"
+      },
+      "executeClientScripts": true
+    },
+    "Terms of Service": {
+      "fetch": "https://mon.aphp.fr/conditions_generales_d_utilisation",
+      "select": {
+        "startAfter": "header",
+        "endBefore": ".footer--container"
+      },
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://mon.aphp.fr/protection_des_donnees_personnelles",
+      "select": {
+        "startAfter": "header",
+        "endBefore": ".footer--container"
+      },
+      "executeClientScripts": true
+    }
+  }
+}

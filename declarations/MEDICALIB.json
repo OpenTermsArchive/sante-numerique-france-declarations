@@ -1,0 +1,37 @@
+{
+  "name": "MEDICALIB",
+  "terms": {
+    "Imprint": {
+      "fetch": "https://www.medicalib.fr/mentions-legales/",
+      "select": {
+        "startAfter": "#section_1",
+        "endBefore": "#footer"
+      },
+      "executeClientScripts": true
+    },
+    "Terms of Service": {
+      "fetch": "https://www.medicalib.fr/conditions-generales-utilisation/",
+      "select": {
+        "startAfter": "#section_1",
+        "endBefore": "#footer"
+      },
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.medicalib.fr/donnees-personnelles/",
+      "select": {
+        "startAfter": "#section_1",
+        "endBefore": "#footer"
+      },
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.medicalib.fr/gestion-cookies/",
+      "select": {
+        "startAfter": "#section_1",
+        "endBefore": "#footer"
+      },
+      "executeClientScripts": true
+    }
+  }
+}

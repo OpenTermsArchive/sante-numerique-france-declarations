@@ -1,0 +1,56 @@
+{
+  "name": "Compte ameli",
+  "terms": {
+    "Accessibility Statement": {
+      "fetch": "https://ameli.fr/assure/accessibilite",
+      "select": "article",
+      "remove": [
+        ".social-share-block",
+        ".accordion-control",
+        ".wrapper-linked-contents",
+        ".ameli-feedback-form"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://ameli.fr/assure/mentions-legales-cgu",
+      "select": "article",
+      "remove": [
+        {
+          "startBefore": "#text_57593",
+          "endAfter": "article"
+        },
+        ".social-share-block",
+        ".accordion-control",
+        ".wrapper-linked-contents",
+        ".ameli-feedback-form"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://ameli.fr/assure/protection-donnees-personnelles",
+      "select": "article",
+      "remove": [
+        {
+          "startBefore": "#text_164799",
+          "endAfter": "article"
+        },
+        ".social-share-block",
+        ".accordion-control",
+        ".wrapper-linked-contents",
+        ".ameli-feedback-form"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://ameli.fr/assure/protection-donnees-personnelles",
+      "select": {
+        "startBefore": "#text_164799",
+        "endAfter": "article"
+      },
+      "remove": [
+        ".social-share-block",
+        ".accordion-control",
+        ".wrapper-linked-contents",
+        ".ameli-feedback-form"
+      ]
+    }
+  }
+}

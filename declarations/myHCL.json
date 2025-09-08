@@ -1,0 +1,13 @@
+{
+  "name": "myHCL",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://myhcl.sante-ra.fr/Terms.aspx",
+      "select": "#contentWidth"
+    },
+    "Accessibility Statement": {
+      "fetch": "https://myhcl.sante-ra.fr/EspacePublic/Accessibilite.aspx",
+      "select": "#contentWidth"
+    }
+  }
+}

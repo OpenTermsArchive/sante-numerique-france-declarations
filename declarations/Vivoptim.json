@@ -1,0 +1,19 @@
+{
+  "name": "Vivoptim",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://vivoptim.com/gp/cgu-119-686.html",
+      "select": {
+        "startAfter": "#playground",
+        "endAfter": "main"
+      }
+    },
+    "Privacy Policy": {
+      "fetch": "https://vivoptim.com/gp/politique-de-confidentialite-225-782.html",
+      "select": {
+        "startAfter": "#playground",
+        "endAfter": "main"
+      }
+    }
+  }
+}

@@ -13,13 +13,16 @@ export function addIDsToAllowSelection(document) {
 }
 
 function findElementByText(document, targetText) {
-  const allElements = document.querySelectorAll('*');
-
-  for (const element of allElements) {
-    if (element.textContent.trim() === targetText) {
-      return element;
+  // JSDOM-compatible approach: use numeric values instead of NodeFilter constants
+  const walker = document.createTreeWalker(
+    document.body || document,
+    1, // NodeFilter.SHOW_ELEMENT = 1
+    {
+      acceptNode: function(node) {
+        return node.textContent.trim() === targetText ? 1 : 3; // FILTER_ACCEPT = 1, FILTER_SKIP = 3
+      }
     }
-  }
-
-  return null;
+  );
+  
+  return walker.nextNode();
 }

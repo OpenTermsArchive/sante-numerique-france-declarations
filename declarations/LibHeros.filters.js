@@ -18,11 +18,11 @@ function findElementByText(document, targetText) {
     document.body || document,
     1, // NodeFilter.SHOW_ELEMENT = 1
     {
-      acceptNode: function(node) {
+      acceptNode(node) {
         return node.textContent.trim() === targetText ? 1 : 3; // FILTER_ACCEPT = 1, FILTER_SKIP = 3
-      }
-    }
+      },
+    },
   );
-  
+
   return walker.nextNode();
 }

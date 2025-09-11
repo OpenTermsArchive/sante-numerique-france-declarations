@@ -13,9 +13,31 @@
     },
     "Terms of Service": {
       "fetch": "https://www.libheros.fr/a-propos/cgps",
+      "filter": [
+        "addIDsToAllowSelection"
+      ],
+      "select": [
+        {
+          "startAfter": ".main-header",
+          "endBefore": "#mentions-legales"
+        },
+        {
+          "startBefore": "#objet-validation-acceptation",
+          "endBefore": ".footer"
+        }
+      ],
+      "remove": [
+        ".responsive-image"
+      ]
+    },
+    "Imprint": {
+      "fetch": "https://www.libheros.fr/a-propos/cgps",
+      "filter": [
+        "addIDsToAllowSelection"
+      ],
       "select": {
-        "startAfter": ".main-header",
-        "endBefore": ".footer"
+        "startBefore": "#mentions-legales",
+        "endBefore": "#objet-validation-acceptation"
       },
       "remove": [
         ".responsive-image"

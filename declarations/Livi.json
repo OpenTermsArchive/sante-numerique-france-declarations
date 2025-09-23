@@ -3,19 +3,23 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://livi.fr/legal/politique-de-confidentialite/",
-      "select": "main"
+      "select": "main",
+      "executeClientScripts": true
     },
     "Imprint": {
       "fetch": "https://livi.fr/mentions-legales/",
-      "select": "main"
+      "select": "main",
+      "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://livi.fr/legal/cookies/",
-      "select": "main"
+      "select": "main",
+      "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://www.livi.fr/eula//",
-      "select": "main"
+      "select": "main",
+      "executeClientScripts": true
     }
   }
 }

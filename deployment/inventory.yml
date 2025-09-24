@@ -3,4 +3,4 @@ all:
     54.38.188.145:
       ansible_user: ota
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIAcAoGmP6nGI8Ofl3GsBVlHG6hgn/RudIHYwICNoFb+R
-      ota_source_repository: https://github.com/OpenTermsArchive/dns-declarations.git
+      ota_source_repository: https://github.com/OpenTermsArchive/sante-numerique-france-declarations.git

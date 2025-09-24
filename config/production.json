@@ -4,8 +4,8 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/dns-snapshots/commit/%SNAPSHOT_ID",
-            "repository": "git@github.com:OpenTermsArchive/dns-versions.git",
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/sante-numerique-france-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/sante-numerique-france-versions.git",
             "path": "./data/versions"
           }
         }
@@ -13,7 +13,7 @@
       "snapshots": {
         "storage": {
           "git": {
-            "repository": "git@github.com:OpenTermsArchive/dns-snapshots.git",
+            "repository": "git@github.com:OpenTermsArchive/sante-numerique-france-snapshots.git",
             "path": "./data/snapshots"
           }
         }
@@ -31,14 +31,14 @@
     "reporter": {
       "type": "github",
       "repositories": {
-        "declarations": "OpenTermsArchive/dns-declarations",
-        "versions": "OpenTermsArchive/dns-versions",
-        "snapshots": "OpenTermsArchive/dns-snapshots"
+        "declarations": "OpenTermsArchive/sante-numerique-france-declarations",
+        "versions": "OpenTermsArchive/sante-numerique-france-versions",
+        "snapshots": "OpenTermsArchive/sante-numerique-france-snapshots"
       }
     },
     "dataset": {
       "title": "dns",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/dns-versions"
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/sante-numerique-france-versions"
     },
     "collection-api": {
       "port": 3000,

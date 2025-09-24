@@ -2,7 +2,7 @@
 
 The terms in this collection are declared by <!-- customize to your context -->the Open Terms Archive Core Team<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
 
-You can [explore the tracked versions](https://github.com/OpenTermsArchive/dns-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/dns-versions/releases) in the `OpenTermsArchive/dns-versions` repository.
+You can [explore the tracked versions](https://github.com/OpenTermsArchive/sante-numerique-france-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/sante-numerique-france-versions/releases) in the `OpenTermsArchive/sante-numerique-france-versions` repository.
 
 ## Scope
 

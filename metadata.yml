@@ -1,11 +1,11 @@
-id: dns
+id: sante-numerique-france
 name: Délégation au numérique en santé
 tagline: ''
 description: ''
-dataset: https://github.com/OpenTermsArchive/dns-versions/releases
-declarations: https://github.com/OpenTermsArchive/dns-declarations
-versions: https://github.com/OpenTermsArchive/dns-versions
-snapshots: https://github.com/OpenTermsArchive/dns-snapshots
+dataset: https://github.com/OpenTermsArchive/sante-numerique-france-versions/releases
+declarations: https://github.com/OpenTermsArchive/sante-numerique-france-declarations
+versions: https://github.com/OpenTermsArchive/sante-numerique-france-versions
+snapshots: https://github.com/OpenTermsArchive/sante-numerique-france-snapshots
 languages:
   - fr
 jurisdictions:

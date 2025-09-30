@@ -1,4 +1,4 @@
-# Declarations of terms tracked in the *dns* collection
+# Declarations of terms tracked in the *Santé numérique France* collection
 
 The terms in this collection are declared by <!-- customize to your context -->the Open Terms Archive Core Team<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
 

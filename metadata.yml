@@ -1,7 +1,7 @@
 id: sante-numerique-france
-name: Santé numérique France
-tagline: Services numériques de santé utilisés en France
-description: La collection Santé numérique France est dédiée au suivi des conditions d'utilisation des principales plateformes et applications de santé numérique utilisées en France.
+name: Numérique en santé France
+tagline: Digital health services used in France
+description: The “Numérique en santé France” collection is dedicated to monitoring the conditions of use of digital health services used in France, particularly when they are listed in the Mon espace santé service catalog.
 dataset: https://github.com/OpenTermsArchive/sante-numerique-france-versions/releases
 declarations: https://github.com/OpenTermsArchive/sante-numerique-france-declarations
 versions: https://github.com/OpenTermsArchive/sante-numerique-france-versions
@@ -18,12 +18,12 @@ governance:
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
-    roles:
-      - sysadmin
-      - maintainer
-  Ministère chargé de la santé:
-    url: https://sante.gouv.fr
-    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Minist%C3%A8re_de_la_Sant%C3%A9_et_de_l%27Acc%C3%A8s_aux_Soins.png/500px-Minist%C3%A8re_de_la_Sant%C3%A9_et_de_l%27Acc%C3%A8s_aux_Soins.png
-    roles:
-      - analyst
-      - curator
+    roles: [sysadmin, maintainer]
+  Agence du numérique en santé:
+    url: https://esante.gouv.fr/
+    logo: https://opentermsarchive.org/images/contributors/e-sante-francaise.png
+    roles: [analyst, curator]
+i18n:
+  fr: 
+    tagline: Services numériques en santé utilisés en France
+    description: La collection « Numérique en santé France » est dédiée au suivi des conditions d’utilisation des services numériques en santé utilisés en France, notamment lorsqu’ils sont référencés au sein du catalogue de services de Mon espace santé.

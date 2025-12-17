@@ -19,9 +19,9 @@ governance:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
     roles: [sysadmin, maintainer]
-  Agence du numérique en santé:
-    url: https://esante.gouv.fr/
-    logo: https://opentermsarchive.org/images/contributors/e-sante-francaise.png
+  Délégation au numérique en santé:
+    url: https://sante.gouv.fr/
+    logo: https://opentermsarchive.org/images/contributors/ministere-sante.png
     roles: [analyst, curator]
 i18n:
   fr: 

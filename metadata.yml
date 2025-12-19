@@ -18,7 +18,7 @@ governance:
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
-    roles: [sysadmin, maintainer]
+    roles: [host, sysadmin, maintainer]
   Délégation au numérique en santé:
     url: https://sante.gouv.fr/
     logo: https://opentermsarchive.org/images/contributors/ministere-sante.png

@@ -1,6 +1,6 @@
 # Declarations of terms tracked in the *Santé numérique France* collection
 
-The terms in this collection are declared by <!-- customize to your context -->the Open Terms Archive Core Team<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
+The terms in this collection are declared by the Open Terms Archive Core Team on behalf of the [Délégation du numérique en santé](https://gnius.esante.gouv.fr/fr/acteurs/fiches-acteur/delegation-au-numerique-en-sante-dns) and tracked using [Open Terms Archive](https://opentermsarchive.org).
 
 You can [explore the tracked versions](https://github.com/OpenTermsArchive/sante-numerique-france-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/sante-numerique-france-versions/releases) in the `OpenTermsArchive/sante-numerique-france-versions` repository.
 

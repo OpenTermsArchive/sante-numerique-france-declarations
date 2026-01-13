@@ -1,16 +1,21 @@
-export function addIDsToAllowSelection(document) {
-  const mentionsElement = findElementByText(document, '1 - MENTIONS LEGALES');
+export const addIDsToAllowSelection = [
+  {
+    filter: function(document) {
+      const mentionsElement = findElementByText(document, '1 - MENTIONS LEGALES');
 
-  if (mentionsElement) {
-    mentionsElement.id = 'mentions-legales';
+      if (mentionsElement) {
+        mentionsElement.id = 'mentions-legales';
+      }
+
+      const objetElement = findElementByText(document, '2 - OBJET – VALIDATION – ACCEPTATION');
+
+      if (objetElement) {
+        objetElement.id = 'objet-validation-acceptation';
+      }
+    },
+    validUntil: '2026-01-13T00:30:38Z'
   }
-
-  const objetElement = findElementByText(document, '2 - OBJET – VALIDATION – ACCEPTATION');
-
-  if (objetElement) {
-    objetElement.id = 'objet-validation-acceptation';
-  }
-}
+];
 
 function findElementByText(document, targetText) {
   // JSDOM-compatible approach: use numeric values instead of NodeFilter constants

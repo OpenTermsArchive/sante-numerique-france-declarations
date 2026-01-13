@@ -1,6 +1,6 @@
 export const addIDsToAllowSelection = [
   {
-    filter: function(document) {
+    filter(document) {
       const mentionsElement = findElementByText(document, '1 - MENTIONS LEGALES');
 
       if (mentionsElement) {
@@ -13,8 +13,8 @@ export const addIDsToAllowSelection = [
         objetElement.id = 'objet-validation-acceptation';
       }
     },
-    validUntil: '2026-01-13T00:30:38Z'
-  }
+    validUntil: '2026-01-13T00:30:38Z',
+  },
 ];
 
 function findElementByText(document, targetText) {

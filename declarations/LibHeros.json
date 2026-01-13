@@ -21,15 +21,11 @@
     },
     "Imprint": {
       "fetch": "https://www.libheros.fr/a-propos/cgps",
-      "filter": [
-        "addIDsToAllowSelection"
+      "select": [
+        "main"
       ],
-      "select": {
-        "startBefore": "#mentions-legales",
-        "endBefore": "#objet-validation-acceptation"
-      },
       "remove": [
-        ".responsive-image"
+        ".object-cover"
       ]
     }
   }

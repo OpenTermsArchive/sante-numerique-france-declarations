@@ -12,21 +12,11 @@
     },
     "Terms of Service": {
       "fetch": "https://www.libheros.fr/a-propos/cgps",
-      "filter": [
-        "addIDsToAllowSelection"
-      ],
       "select": [
-        {
-          "startAfter": ".main-header",
-          "endBefore": "#mentions-legales"
-        },
-        {
-          "startBefore": "#objet-validation-acceptation",
-          "endBefore": ".footer"
-        }
+        "main"
       ],
       "remove": [
-        ".responsive-image"
+        ".object-cover"
       ]
     },
     "Imprint": {

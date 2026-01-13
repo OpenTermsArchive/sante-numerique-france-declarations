@@ -3,12 +3,11 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://libheros.fr/a-propos/politique-confidentialite",
-      "select": {
-        "startAfter": ".main-header",
-        "endBefore": ".footer"
-      },
+      "select": [
+        "main"
+      ],
       "remove": [
-        ".responsive-image"
+        ".object-cover"
       ]
     },
     "Terms of Service": {

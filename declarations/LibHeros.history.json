@@ -1,0 +1,15 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://libheros.fr/a-propos/politique-confidentialite",
+      "select": {
+        "startAfter": ".main-header",
+        "endBefore": ".footer"
+      },
+      "remove": [
+        ".responsive-image"
+      ],
+      "validUntil": "2026-01-13T00:30:38Z"
+    }
+  ]
+}

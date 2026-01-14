@@ -3,44 +3,29 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://libheros.fr/a-propos/politique-confidentialite",
-      "select": {
-        "startAfter": ".main-header",
-        "endBefore": ".footer"
-      },
+      "select": [
+        "main"
+      ],
       "remove": [
-        ".responsive-image"
+        ".object-cover"
       ]
     },
     "Terms of Service": {
       "fetch": "https://www.libheros.fr/a-propos/cgps",
-      "filter": [
-        "addIDsToAllowSelection"
-      ],
       "select": [
-        {
-          "startAfter": ".main-header",
-          "endBefore": "#mentions-legales"
-        },
-        {
-          "startBefore": "#objet-validation-acceptation",
-          "endBefore": ".footer"
-        }
+        "main"
       ],
       "remove": [
-        ".responsive-image"
+        ".object-cover"
       ]
     },
     "Imprint": {
       "fetch": "https://www.libheros.fr/a-propos/cgps",
-      "filter": [
-        "addIDsToAllowSelection"
+      "select": [
+        "main"
       ],
-      "select": {
-        "startBefore": "#mentions-legales",
-        "endBefore": "#objet-validation-acceptation"
-      },
       "remove": [
-        ".responsive-image"
+        ".object-cover"
       ]
     }
   }

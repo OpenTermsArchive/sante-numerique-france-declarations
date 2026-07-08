@@ -1,11 +1,15 @@
 export function addIDsToAllowSelection(document) {
-  const IGNORED_TAGS = [ 'SCRIPT', 'STYLE', 'TITLE', 'META', 'LINK', 'TEMPLATE', 'NOSCRIPT', 'NEXT-ROUTE-ANNOUNCER' ];
-  const root = document.body || document;
+  const IGNORED_TAGS = [
+    'SCRIPT', 'STYLE', 'TITLE', 'META', 'LINK', 'TEMPLATE', 'NOSCRIPT',
+    'NAV', 'HEADER', 'FOOTER', 'ASIDE', 'DIALOG',
+  ];
+
+  const MIN_LEGAL_LENGTH = 3000;
 
   let mainContent = null;
   let maxLength = 0;
 
-  Array.from(root.children).forEach(element => {
+  Array.from(document.body.children).forEach(element => {
     if (IGNORED_TAGS.includes(element.tagName)) {
       return;
     }
@@ -18,7 +22,7 @@ export function addIDsToAllowSelection(document) {
     }
   });
 
-  if (mainContent) {
+  if (mainContent && maxLength >= MIN_LEGAL_LENGTH) {
     mainContent.id = 'main-content';
   }
 }
